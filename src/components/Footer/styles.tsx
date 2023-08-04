@@ -6,15 +6,15 @@ export const Container = styled.div`
 
 export const LogoContainer = styled.div`
   display: flex;
-  @media (max-width: 886px) {
+  @media (max-width: 885px) {
     justify-content: center;
   }
 `
 
 export const Logo = styled.img`
   display: block;
-  margin-left: 185px;
-  @media (max-width: 886px) {
+  margin-left: 382px;
+  @media (max-width: 885px) {
     margin-left: 0px;
   }
 `
@@ -23,9 +23,10 @@ export const ContentContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 90px;
-  padding: 140px 140px 80px 140px;
-  @media (max-width: 886px) {
+  padding: 140px 140px 80px 330px;
+  @media (max-width: 1102px) {
     justify-content: center;
+    padding: 140px 140px 80px 140px;
   }
 `
 
@@ -53,7 +54,7 @@ export const ItenListContactContainer = styled.div`
   flex-direction: column;
   gap: 15px;
   justify-content: end;
-  @media (max-width: 886px) {
+  @media (max-width: 885px) {
     text-align: center;
   }
 `
@@ -63,7 +64,7 @@ export const ItenListContainer = styled.div`
   flex-direction: column;
   gap: 15px;
   margin-top: 26px;
-  @media (max-width: 886px) {
+  @media (max-width: 885px) {
     text-align: center;
   }
 `
@@ -72,7 +73,7 @@ export const TitleList = styled.h1`
   font-family: 'Philosopher', sans-serif;
   font-size: var(--font-md);
   color: var(--white);
-  @media (max-width: 886px) {
+  @media (max-width: 885px) {
     text-align: center;
   }
 `

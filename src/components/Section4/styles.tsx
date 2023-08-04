@@ -7,7 +7,6 @@ export const Container = styled.div`
   gap: 100px;
   margin-top: 187px;
   max-height: 518px;
-
   @media (max-width: 985px) {
     margin-top: 50px;
     height: 400px;
@@ -79,7 +78,7 @@ export const Android = styled.img`
 
 export const MobileContainer = styled.div`
   position: relative;
-  bottom: 75px;
+  bottom: 85px;
   @media (max-width: 985px) {
     display: none;
   }

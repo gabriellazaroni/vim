@@ -11,16 +11,18 @@ import { Footer } from './components/Footer'
 
 export function App() {
   return (
-    <Container>
-      <GlobalStyles />
-      <Header />
-      <Main />
-      <Section1 />
-      <Section2 />
-      <Section3 />
+    <>
+      <Container>
+        <GlobalStyles />
+        <Header />
+        <Main />
+        <Section1 />
+        <Section2 />
+        <Section3 />
+      </Container>
       <Section4 />
       <Section5 />
       <Footer />
-    </Container>
+    </>
   )
 }
